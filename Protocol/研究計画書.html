@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>研究計画書 | 日本の救急外来における心筋トロポニン採取実態</title>
+  <style>
+
+html {
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 12px;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+html {
+background-color: white;
+}
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+svg {
+height: auto;
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+white-space: pre-wrap;
+font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+font-size: 85%;
+margin: 0;
+hyphens: manual;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+border: none;
+border-top: 1px solid #1a1a1a;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style>
+:root {
+--ink: #17202a;
+--muted: #59636e;
+--accent: #155e75;
+--accent-soft: #ecfeff;
+--line: #cbd5e1;
+--paper: #ffffff;
+--canvas: #f1f5f9;
+}
+html { scroll-behavior: smooth; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+max-width: 1040px;
+margin: 0 auto;
+padding: 32px 40px 72px;
+color: var(--ink);
+background: var(--paper);
+font: 15px/1.75 -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif;
+}
+body::before {
+content: "研究計画書 | 共同研究者閲覧用";
+display: block;
+margin-bottom: 28px;
+padding: 10px 14px;
+color: #fff;
+background: var(--accent);
+border-radius: 6px;
+font-size: 13px;
+letter-spacing: .04em;
+}
+h1 { margin-top: 0; font-size: 2rem; line-height: 1.35; border-bottom: 3px solid var(--accent); padding-bottom: 12px; }
+h2 { margin-top: 3rem; padding: 8px 12px; font-size: 1.45rem; line-height: 1.45; border-left: 6px solid var(--accent); background: var(--accent-soft); }
+h3 { margin-top: 2rem; color: var(--accent); font-size: 1.15rem; }
+h4 { margin-top: 1.5rem; }
+a { color: #0369a1; text-underline-offset: 2px; }
+blockquote { margin: 1rem 0; padding: .65rem 1rem; color: #334155; background: #f8fafc; border-left: 4px solid #94a3b8; }
+blockquote p { margin: .25rem 0; }
+code { padding: .1em .35em; background: #eef2f6; border-radius: 4px; overflow-wrap: anywhere; }
+table { display: block; width: 100%; overflow-x: auto; border-collapse: collapse; margin: 1.25rem 0 1.75rem; font-size: .9rem; }
+th, td { min-width: 8rem; padding: .55rem .7rem; text-align: left; vertical-align: top; border: 1px solid var(--line); }
+th { color: #0f3d4a; background: #e6f3f6; }
+tr:nth-child(even) td { background: #f8fafc; }
+#TOC { margin: 2rem 0 3rem; padding: 1rem 1.5rem; background: #f8fafc; border: 1px solid var(--line); border-radius: 8px; }
+#TOC::before { content: "目次"; display: block; margin-bottom: .5rem; font-size: 1.1rem; font-weight: 700; color: var(--accent); }
+#TOC ul { margin: .25rem 0; padding-left: 1.4rem; }
+hr { margin: 2.5rem 0; border: 0; border-top: 1px solid var(--line); }
+@media (max-width: 720px) {
+body { padding: 18px 18px 48px; font-size: 14px; }
+h1 { font-size: 1.6rem; }
+h2 { font-size: 1.25rem; }
+}
+@media print {
+@page { size: A4 portrait; margin: 16mm 14mm; }
+body { max-width: none; padding: 0; font-size: 10.5pt; }
+body::before, #TOC { display: none; }
+h1 { font-size: 18pt; }
+h2 { break-after: avoid; font-size: 14pt; }
+h3 { break-after: avoid; font-size: 12pt; }
+table { display: table; overflow: visible; font-size: 8.5pt; }
+tr, th, td { break-inside: avoid; }
+a { color: inherit; text-decoration: none; }
+}
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">研究計画書 |
+日本の救急外来における心筋トロポニン採取実態</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#研究計画書" id="toc-研究計画書">研究計画書</a>
+<ul>
+<li><a href="#研究タイトル" id="toc-研究タイトル">研究タイトル</a></li>
+<li><a href="#１研究者一覧" id="toc-１研究者一覧">１．研究者一覧</a>
+<ul>
+<li><a href="#1-筆頭研究者実際に研究の立案データ加工分析論文ドラフト執筆に携わる者" id="toc-1-筆頭研究者実際に研究の立案データ加工分析論文ドラフト執筆に携わる者">(1)
+筆頭研究者（実際に研究の立案・データ加工分析・論文ドラフト執筆に携わる者）</a></li>
+<li><a href="#2-共同研究者" id="toc-2-共同研究者">(2)
+共同研究者</a></li>
+</ul></li>
+<li><a href="#２研究の背景" id="toc-２研究の背景">２．研究の背景</a>
+<ul>
+<li><a href="#本研究の背景" id="toc-本研究の背景">本研究の背景</a></li>
+<li><a href="#本研究に関連する先行研究のレビュー結果のまとめwhat-are-already-known" id="toc-本研究に関連する先行研究のレビュー結果のまとめwhat-are-already-known">本研究に関連する先行研究のレビュー結果のまとめ（What
+are already known?）</a></li>
+<li><a href="#先行研究では明らかになっていない点what-remains-unknown" id="toc-先行研究では明らかになっていない点what-remains-unknown">先行研究では明らかになっていない点（What
+remains unknown?）</a></li>
+<li><a href="#本研究の新規性what-are-new-in-this-study" id="toc-本研究の新規性what-are-new-in-this-study">本研究の新規性（What
+are new in this study?）</a></li>
+<li><a href="#本研究の目的what-are-the-aims-of-this-study" id="toc-本研究の目的what-are-the-aims-of-this-study">本研究の目的（What
+are the aims of this study?）</a></li>
+</ul></li>
+<li><a href="#３研究の方法" id="toc-３研究の方法">３．研究の方法</a>
+<ul>
+<li><a href="#1-research-question-の設定" id="toc-1-research-question-の設定">(1) Research Question
+の設定</a></li>
+<li><a href="#2-データの種類" id="toc-2-データの種類">(2)
+データの種類</a></li>
+<li><a href="#3-対象者の組み入れ除外基準" id="toc-3-対象者の組み入れ除外基準">(3)
+対象者の組み入れ・除外基準</a></li>
+<li><a href="#4-各種変数の定義" id="toc-4-各種変数の定義">(4)
+各種変数の定義</a></li>
+<li><a href="#5-解析手法" id="toc-5-解析手法">(5) 解析手法</a></li>
+<li><a href="#6-finer-の確認" id="toc-6-finer-の確認">(6) FINER
+の確認</a></li>
+</ul></li>
+<li><a href="#４この研究を行う意義" id="toc-４この研究を行う意義">４．この研究を行う意義</a></li>
+<li><a href="#５研究費の有無予定等" id="toc-５研究費の有無予定等">５．研究費の有無、予定等</a></li>
+<li><a href="#６文献" id="toc-６文献">６．文献</a>
+<ul>
+<li><a href="#1-pubmed-検索の過程" id="toc-1-pubmed-検索の過程">(1)
+PubMed 検索の過程</a></li>
+<li><a href="#2-検索後の吟味" id="toc-2-検索後の吟味">(2)
+検索後の吟味</a></li>
+<li><a href="#3-文献リストvancouver-形式" id="toc-3-文献リストvancouver-形式">(3) 文献リスト（Vancouver
+形式）</a></li>
+</ul></li>
+<li><a href="#補足資料a日本の医学系研究倫理指針への対応" id="toc-補足資料a日本の医学系研究倫理指針への対応">補足資料A：日本の医学系研究倫理指針への対応</a></li>
+<li><a href="#補足資料brecord-報告ガイドライン対応表" id="toc-補足資料brecord-報告ガイドライン対応表">補足資料B：RECORD
+報告ガイドライン対応表</a></li>
+<li><a href="#補足資料c確認中の論点事業者回答後に確定" id="toc-補足資料c確認中の論点事業者回答後に確定">補足資料C：確認中の論点（事業者回答後に確定）</a></li>
+</ul></li>
+</ul>
+</nav>
+<p>リアルワールドデータ活用人材育成事業</p>
+<h1 id="研究計画書">研究計画書</h1>
+<blockquote>
+<p>作成者氏名：多田 昌史</p>
+<p>作成・改訂日：2026-07-15（第2版）</p>
+</blockquote>
+<hr />
+<h2 id="研究タイトル">研究タイトル</h2>
+<p><strong>日本の救急外来における心筋トロポニン採取回数・時間間隔・採取パターンの実態に関する多施設後ろ向き記述研究
+― TXP Medical
+医療データベース（電子カルテ由来）を用いた検討</strong></p>
+<blockquote>
+<p>タイトルに研究デザイン（多施設後ろ向き記述研究）、データの種類・データベース名（TXP
+Medical
+医療データベース、電子カルテ由来）、地域（日本）を明示した。対象期間は
+§3(2)・§3(3)
+に記載する。本研究は施設横断のデータリンケージを行わない。</p>
+</blockquote>
+<hr />
+<h2 id="１研究者一覧">１．研究者一覧</h2>
+<h3 id="1-筆頭研究者実際に研究の立案データ加工分析論文ドラフト執筆に携わる者">(1)
+筆頭研究者（実際に研究の立案・データ加工分析・論文ドラフト執筆に携わる者）</h3>
+<p>氏名： 多田 昌史</p>
+<h3 id="2-共同研究者">(2) 共同研究者</h3>
+<table>
+<thead>
+<tr>
+<th>氏名</th>
+<th>所属</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>笹渕 裕介（Sasabuchi Yusuke）</td>
+<td>東京大学大学院医学系研究科 特任准教授</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>上記のほか、共同研究者・所属は確定後に追記する。前向き多施設研究（福井・愛知の救急・循環器施設群、および
+University of Edinburgh
+の共同研究者）と連続するトピックであり、共同体制は別途調整する。</p>
+</blockquote>
+<hr />
+<h2 id="２研究の背景">２．研究の背景</h2>
+<h3 id="本研究の背景">本研究の背景</h3>
+<p>急性心筋梗塞を疑う患者の救急外来（emergency department,
+ED）診療では、心筋トロポニン（cardiac troponin,
+cTn）の測定が診断の中心を担う。欧米のガイドラインは、高感度心筋トロポニン（high-sensitivity
+cardiac troponin, hs-cTn）に基づく早期除外アルゴリズム（European Society
+of Cardiology 0/1時間アルゴリズム、High-STEACS
+経路など）を標準的な診療として位置づけている〔文献1, 2, 3,
+4〕。これらのアルゴリズムでは、発症から一定時間が経過し初回 hs-cTn
+値が十分に低い患者は低リスクとして早期に除外し、それ以外の患者では時間をおいた反復測定によって上昇・変化を評価する〔文献3〕。すなわち、cTn
+を「何回・どの間隔で採取するか」という採取実務そのものが、診断アルゴリズムの安全性と効率を規定する。</p>
+<h3 id="本研究に関連する先行研究のレビュー結果のまとめwhat-are-already-known">本研究に関連する先行研究のレビュー結果のまとめ（What
+are already known?）</h3>
+<p>第一に、閾値に基づく早期除外アルゴリズムの診断性能は、多施設前向き研究によって確立している〔文献5〕。欧州で導出された
+High-STEACS 経路は、除外閾値（5 ng/L
+未満）と確定閾値（99パーセンタイル超）を分離することで、単一の99パーセンタイル閾値のみに依拠する
+European Society of Cardiology
+経路より見落としを約5分の1に減らし、より多くの患者を早期に除外した〔文献3〕。日本の
+ED を対象とした筆頭著者らの前向き多施設研究でも、同じく High-STEACS
+経路が優れた安全性と最も高い効率を両立する一方、99パーセンタイル値に基づく単回評価は十分な安全性を有さないことが示された〔文献6,
+7〕。すなわち、どの閾値を用い、初回で除外するか反復測定に進むかというアルゴリズムの選択が、安全性と効率を規定する。</p>
+<p>第二に、アルゴリズムが試験で示す安全性と効率は、それが実臨床でどう実装されるか、すなわち
+cTn
+をいつ・何回採取し、低リスクと判定した患者を実際に帰宅させるかという採取・判断の実務に依存する。そして、この採取・判断の実務は、施設間で大きく異なる。ルーチン収集データを用いた英国の多施設研究では、hs-cTn
+が低リスクと判定した患者のうち実際に ED
+から帰宅となった割合が、施設間で26.8%から93.5%まで大きく異なった〔文献8〕。米国の退役軍人医療システムを対象とした横断研究でも、ED
+受診に対するトロポニン検査のオーダ率が施設間で2.2%から64.5%に及んだ〔文献9〕。したがって、アルゴリズムの性能が確立していても、その前提となる採取実務がどの水準にあるかは、記述されて初めて明らかになる。</p>
+<h3 id="先行研究では明らかになっていない点what-remains-unknown">先行研究では明らかになっていない点（What
+remains unknown?）</h3>
+<p>日本の ED で cTn
+が実際に何回、どの時間間隔で採取されているかという採取実務の実態は、ほとんど記述されていない。日本循環器学会の急性冠症候群ガイドライン（2018年改訂版）は反復測定の考え方を示す一方、欧米で標準化された
+hs-cTn
+ベースの早期除外アルゴリズムには言及していない〔文献10〕。診療実態を把握しうる既存データのうち、保険請求（レセプト）データでは、同一来院で複数回測定しても医事会計システムが自動的に1回分のみを請求する運用がみられるため、採取回数を復元できない。加えて、レセプトでは検体採取時刻・使用アッセイ・測定値そのものも取得できない。このため、採取回数・時間間隔・アッセイを同時に把握するには、時刻付き検査データを含む電子カルテ由来データベースが必要となる。</p>
+<h3 id="本研究の新規性what-are-new-in-this-study">本研究の新規性（What
+are new in this study?）</h3>
+<p>本研究は、時刻付きの検査データを含む多施設電子カルテ由来データベース（TXP
+Medical 医療データベース）を用い、日本の ED における cTn
+の採取回数・連続採取の時間間隔・採取パターンを施設横断的に記述する初めての試みである。当該データベースは救命救急センターを有する高次救急施設を主体とし、電子カルテ由来であるがゆえに、レセプトでは失われる同一来院内の複数回採取・検体採取時刻を保持しうる。使用アッセイの同定情報（機器・試薬、または
+JLAC10）についても、取得可能であれば層別に活用できる。</p>
+<h3 id="本研究の目的what-are-the-aims-of-this-study">本研究の目的（What
+are the aims of this study?）</h3>
+<p><strong>主目的</strong>は、ED 受診時の cTn
+測定について、1来院あたりの採取回数・連続採取の時間間隔・採取パターンを記述することである。<strong>副次目的</strong>は、(i)
+使用アッセイ・施設・主訴・転帰で層別した採取パターンの記述、(ii)
+採取実務の経時的変化（2019年 対 2025年）の記述、および (iii)
+<strong>発症からの時間と採取パターンの関連の記述</strong>である。副次目的(iii)は、発症時刻データが取得可能であること（自由記載からの
+NLP
+抽出可否）を前提とし、取得できる場合には正式な副次解析として実施する。<strong>探索的目的</strong>として、ED
+から帰宅した患者における帰宅後30日以内の心筋梗塞の頻度・時期を、データの制約を明示したうえで検討する。</p>
+<hr />
+<h2 id="３研究の方法">３．研究の方法</h2>
+<h3 id="1-research-question-の設定">(1) Research Question の設定</h3>
+<p>本研究は記述研究であり、比較群を主目的に置かない。Research Question
+は以下の PECO で整理する。</p>
+<ul>
+<li><strong>P（対象）</strong>： 対象期間中の ED
+受診であり、当該来院中に心筋トロポニン（cTnI もしくは
+cTnT、高感度／従来法を問わない）が1回以上測定された来院。解析単位は
+<strong>1 ED 来院（救急外来受診エピソード）</strong> とする。</li>
+<li><strong>E/I（曝露・関心事）</strong>： cTn
+の採取実務。すなわち1来院あたりの採取回数、連続採取の時間間隔、採取パターン、使用アッセイ（cTnI/cTnT・高感度/従来法）、および測定区分（中央検査室／POCT）。</li>
+<li><strong>C（比較）</strong>：
+主目的では設定しない（記述研究）。副次目的として、2019年 対
+2025年の経時比較、ならびにアッセイ間・施設間の記述的比較を行う。</li>
+<li><strong>O（アウトカム）</strong>：
+主要記述指標は、1来院あたりの採取回数の分布、連続採取間隔（分／時間）の分布、および採取パターン（単回／複数回、採取時刻の並び）の分布。探索的アウトカムとして、ED
+から帰宅した来院における帰宅後30日以内の心筋梗塞の頻度・時期。</li>
+</ul>
+<h3 id="2-データの種類">(2) データの種類</h3>
+<p>本研究は、<strong>TXP Medical
+医療データベース</strong>を用いる後ろ向き観察研究である。当該データベースは、TXP
+Medical の医療システム（救急・集中治療領域の電子カルテ支援システム NEXT
+Stage ER
+等）を導入した全国の中核病院から収集された臨床研究用データウェアハウスであり、カルテテキスト・検査値データ・DPC（医療費算定用）データを統合し、専門家チームによるカルテレビューを経て構造化した情報を含む。収載施設は400床以上の大病院を対象とし、救命救急センターを有する高次救急施設を主体とする。施設横断のデータは、TXP
+Medical
+の統一マスタコードにより標準化されている。データベース選定にあたっては、採取回数・測定値・アッセイ・採取間隔という本研究の主要関心事を復元するために電子カルテ由来データが不可欠であり、時刻付き検査データを保持しうる本データベースが適切と判断した。</p>
+<ul>
+<li><strong>データアクセスの範囲</strong>：
+研究者はデータベース母集団全体に直接アクセスしない。抽出条件に合致するレコードの抽出・仮名化はデータベース事業者（TXP
+Medical）が実施し、研究者は仮名加工済みの解析用データセットのみを受領する。事業者が保有するデータベース全体の規模、および除外前後の件数は、事業者からの集計報告により把握する（§3(3)
+参照）。</li>
+<li><strong>データリンケージの水準</strong>：
+データ結合は各施設内での<strong>個人・来院水準のレコードリンケージ</strong>にとどまる。すなわち、同一の仮名化
+<code>患者ID</code>・<code>来院ID</code>
+により、来院マスタ・トロポニン測定・施設機器マスタの各テーブルを結合する。施設横断での患者名寄せは行わないため、他施設を受診した同一患者の追跡はできない（§3(5)・§4
+の限界を参照）。</li>
+<li><strong>データクリーニング</strong>：
+受領データに対し、変数の型・欠測・分布の検証を解析に先立って実施する。特に検体採取日時の非欠測率、測定値の単位（施設間で桁を揃えず生の単位のまま受領する）、検査項目マスタの内容を確認する。データクリーニングの各手順と除外件数は記録し、再現可能な形で残す。</li>
+<li><strong>納品テーブル構成</strong>：
+粒度の異なるデータを別テーブルとし、<code>来院ID</code>・<code>患者ID</code>
+で結合できる形で受領する。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>テーブル</th>
+<th>粒度（1行=）</th>
+<th>役割</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>①</td>
+<td>来院マスタ</td>
+<td>1 ED 来院</td>
+<td>患者背景・来院情報・初回検査値・転帰・診断（ワイド形式）</td>
+</tr>
+<tr>
+<td>②</td>
+<td>トロポニン測定</td>
+<td>1 測定</td>
+<td>値・検体採取日時・機器（ロング形式／本研究の主データ）</td>
+</tr>
+<tr>
+<td>③</td>
+<td>施設・機器マスタ</td>
+<td>1 施設×期間</td>
+<td>アッセイ・試薬・高感度区分の同定用</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-対象者の組み入れ除外基準">(3) 対象者の組み入れ・除外基準</h3>
+<p><strong>設定</strong>： 主たる対象期間は
+<strong>2025年1月1日〜2025年12月31日</strong>
+の直近1年間とする。副次目的の経時比較のため、予算とデータが許す場合には<strong>比較期間として2019年1月1日〜2019年12月31日</strong>（COVID-19流行前）を追加する。経時比較を行う場合は、施設構成の変化と実務の変化を分離するため、<strong>両期間ともにデータが存在する施設のみ</strong>を対象とする（バランスドパネル）。</p>
+<p><strong>抽出母集団</strong>： 対象期間内の ED
+受診であり、当該来院中に cTn
+が1回以上測定された来院。この条件のみを抽出フィルタとする。</p>
+<p><strong>除外基準と対象選択のアルゴリズム</strong>：
+除外は下表の順序で適用し、二重計上を避けるため各段階を相互排他的に集計する。いずれもデータベース事業者側で除外し、段階別件数の報告を受ける。</p>
+<table>
+<thead>
+<tr>
+<th>順</th>
+<th>除外基準</th>
+<th>判定方法</th>
+<th>適用主体</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>18歳未満</td>
+<td>来院時年齢</td>
+<td>事業者除外＋件数報告</td>
+</tr>
+<tr>
+<td>2</td>
+<td>外傷全般（心筋挫傷・心臓外傷の疑いを含む）</td>
+<td>診断コード ICD-10 <strong>S00–T98</strong></td>
+<td>事業者除外＋件数報告</td>
+</tr>
+<tr>
+<td>3</td>
+<td>連続値（定量値）が得られた cTn 測定が1件もない来院</td>
+<td>定量値の有無（欠測・測定エラー・定性トロポニン等をまとめて除外）</td>
+<td>事業者除外＋件数報告</td>
+</tr>
+</tbody>
+</table>
+<p>外傷を除外する理由は、外傷では cTn
+が心筋挫傷の評価目的で測定されることが多く、非外傷における急性冠症候群の除外とは臨床的文脈が異なるためである。除外基準③は、本研究が定量トロポニンの採取実務を対象とするため、連続値を伴わない結果（欠測・測定エラーに加え、従来型の定性トロポニン測定を含む）を一括して除外するものである。なお高次救急施設では定性トロポニンの使用は想定しにくく、該当は稀と見込まれる。</p>
+<p><strong>対象選択コードの同定</strong>： cTn 測定の同定には、TXP
+Medical の構造化検査値データにおける心筋トロポニン I／T
+の検査項目（統一マスタコードで標準化された項目名・院内検査コード等）を用いる。アッセイ同定を目的に、取得可能な場合は
+JLAC10（全17桁。うち測定法部分がアッセイ・試薬の同定に有用）を併せて受領するが、<strong>TXP
+Medical で JLAC10 が取得可能かは要確認事項とする</strong>（補足資料C
+参照）。使用したコード・アルゴリズムの完全な一覧は §3(4)
+および付表（コード一覧）に記載する。</p>
+<p><strong>参加者フロー（Figure 1）</strong>：
+対象選択の各段階の件数を、抽出レコードとは別に事業者から集計値として受領し、参加者フロー図（Figure
+1）として提示する。集計項目は、(i) 対象期間の全 ED 来院数（cTn
+測定の有無を問わない）、(ii) うち cTn 未測定の来院数、(iii)
+各除外段階の件数（18歳未満、外傷〔うち
+S20–S29〕、連続値なし）である。</p>
+<blockquote>
+<p><strong>分母定義に関する未確定論点（確認中）</strong>： 上記「全 cTn
+測定来院」を母集団とするか、胸痛等の特定主訴に限定するかは、主訴データの構造化度（§3(4)）を確認のうえ最終決定する。両案の該当件数概算を事業者に依頼しており、確定後に本項を更新する。</p>
+</blockquote>
+<h3 id="4-各種変数の定義">(4) 各種変数の定義</h3>
+<p>コード化項目（検査・病名・処置・医薬品）は、「コード＋コード体系名・版＋表示名」の3点セットで受領し、値の意味を復元できる対応表（コードマスタ）を併せて取得する。以下に主要変数の定義を示す。使用コードの完全な一覧は付表に掲げる。</p>
+<p><strong>主要変数（採取実務）</strong></p>
+<ul>
+<li><strong>検体採取日時</strong>（テーブル②、必須）：
+時間間隔解析の主変数。実際の採血時刻を分単位で取得する。ER
+採血ではバーコード運用等の事情で欠測しうるため、<strong>採取日時の非欠測率を必ず把握する</strong>。欠測時は「<strong>採取
+＞ 受付 ＞ オーダ ＞
+報告</strong>」の優先順位で代替時刻を用い、同一解析内では同一種類の時刻に統一して間隔を算出する。検証のため、採取日時と報告日時が揃う測定については両者の差（採血から結果報告までの所要時間）の分布を確認する。</li>
+<li><strong>採取回数</strong>： 1来院あたりの cTn
+測定行数（ロング形式のテーブル②を来院単位で集計）。</li>
+<li><strong>連続採取の時間間隔</strong>：
+同一来院内で時間順に並べた連続する2測定の採取時刻差。</li>
+<li><strong>採取パターン</strong>：
+単回／複数回の別、採取時刻の並び、初回採取から最終採取までの経過。</li>
+<li><strong>測定区分</strong>：
+中央検査室／POCT（ベッドサイド即時測定）の別。POCT
+は測定が採血直後に行われるため、機器時刻が採取時刻に近く、時刻解釈の精度評価に用いる。</li>
+</ul>
+<p><strong>アッセイ・測定値</strong></p>
+<ul>
+<li><strong>測定値・単位</strong>： 生値と生の単位（ng/mL・ng/L
+等）を、施設間で桁を揃えず受領する。</li>
+<li><strong>アッセイ同定</strong>：
+テーブル③の測定機器・試薬名、cTnI/cTnT
+の別、高感度／従来法の別により同定する。JLAC10
+が取得可能な場合は、その全17桁のうち測定法部分をアッセイ同定に併用する（JLAC10
+の取得可否は要確認事項。補足資料C
+参照）。施設別カットオフ（99パーセンタイル値等）は取得可能なら受領し、欠測時は文献値を研究者側で付与する。</li>
+</ul>
+<p><strong>患者背景・交絡候補</strong></p>
+<ul>
+<li><strong>人口統計</strong>：
+年齢、性別、来院手段（walk-in／救急搬送）。</li>
+<li><strong>主訴</strong>：
+構造化トリアージ主訴があれば取得。最小限「胸痛／それ以外」の2値でも可とし、構造化度を確認して分母定義（§3(3)）に反映する。</li>
+<li><strong>初回検査値</strong>：
+当該来院の初回採血値のみ（WBC、Hb、BUN、Cr、BNP または
+NT-proBNP）。腎機能（Cr／eGFR）は cTn 解釈の交絡として取得する。</li>
+<li><strong>初回バイタル・心電図所見</strong>：
+取得可能な範囲で。心電図所見は自由テキスト想定のため、構造化・所見コードがあれば併記する。</li>
+<li><strong>既往（併存疾患）</strong>：
+冠動脈疾患・陳旧性心筋梗塞・心不全・心房細動・糖尿病・慢性腎臓病・脳血管障害・高血圧・脂質異常症。<strong>病名コード単独では確定せず、解析側でアルゴリズム定義する</strong>。具体的には、疑い病名を除外し、入院病名または外来で別日2回以上記録された病名を採用する。遡及期間は来院前1年を主とし、不可逆・慢性の既往（陳旧性心筋梗塞、PCI/CABG
+既往、糖尿病、CKD）は取得可能な全期間も併用して感度分析とする。客観的アンカーを優先し、CKD
+は当日
+eGFR/Cr、糖尿病は病名または糖尿病薬、心房細動は病名または抗凝固薬または心電図所見、冠動脈疾患／陳旧性心筋梗塞は病名または
+PCI/CABG
+手技コード（Kコード）で定義する。病名コード（ICD-10／レセプト電算病名）に加え、技術的もしくは費用面で可能なら現病歴・経過記録からの自然言語処理（NLP）抽出（§3
+末尾のオプション項目）も補完的に用いる。</li>
+<li><strong>内服薬</strong>：
+抗血小板薬（アスピリン・P2Y12阻害薬）、抗凝固薬（DOAC・ワルファリン）、スタチン。<strong>来院前90日（3か月）以内の処方を「服用中」とみなす</strong>（処方日数が取得できる場合は処方期間が来院日をカバーする定義を優先）。レセプト電算医薬品コード／YJコードで同定し、院内処方レセプトでは他院処方・持参薬を捕捉できないため、お薬手帳・持参薬・現病歴記載の自由テキスト抽出（NLP）も併用する。</li>
+</ul>
+<p><strong>転帰・診断・処置</strong></p>
+<ul>
+<li><strong>転帰</strong>（必須）： 帰宅／入院／ICU／死亡／転院。</li>
+<li><strong>退院時／最終診断</strong>（必須）：
+ICD-10コード（版を明記）＋レセプト電算病名コード／標準病名（MEDIS）＋表示名。外傷は事業者側で除外されるため納品レコードには含まれない想定。</li>
+<li><strong>実施処置</strong>：
+PCI・CAG・冠動脈CT・心エコー等の実施有無。医科診療行為コード（レセ電）／手術Kコードで同定する。当該
+ED
+受診〜同一エピソード入院中の実施と、来院日から30日以内の実施（実施日＝来院からの日数を含む）を分けて取得する。30日以内の実施は同一施設内に限られ、他院実施は捕捉できない点に留意する。</li>
+</ul>
+<p><strong>探索的アウトカムの定義</strong></p>
+<ul>
+<li><strong>帰宅後30日以内の心筋梗塞</strong>： ED
+から帰宅した来院を起点に、同一施設への再受診で心筋梗塞と診断された、または
+PCI/CAG
+等の冠動脈処置が実施された事象を、来院からの日数とともに把握する。施設横断リンケージがないため他院での事象は捕捉できず、頻度は過小評価となりうる（§4
+の限界を参照）。本アウトカムは探索的位置づけとする。</li>
+</ul>
+<blockquote>
+<p><strong>NLP
+による自由記載抽出（オプション・探索/感度分析）</strong>：
+発症からの時間、既往、内服（他院処方・持参薬を含む）について、現病歴・救急経過記録・お薬手帳記載からの
+NLP
+抽出の可否を事業者に確認する。抽出結果（フラグ・値）のみを受領し、抽出可能率と構造化コードとの突合方針・妥当性検証結果の提示を求める。これらは主解析には用いず、補助変数・感度分析に限定する。</p>
+</blockquote>
+<h3 id="5-解析手法">(5) 解析手法</h3>
+<p><strong>基本方針</strong>：
+本研究は記述研究であり、記述統計を中心とする。連続変数は中央値と四分位範囲（IQR）、カテゴリ変数は件数と割合（n,
+%）で要約する。統計学的判断は解析者が選択肢とトレードオフを検討したうえで確定するものとし、本計画書では主要な解析選択を明示する。推測統計を行う場合は点推定値に95%信頼区間を併記する。</p>
+<p><strong>主解析</strong>： (i) 1来院あたりの採取回数の分布、(ii)
+連続採取間隔（分／時間）の分布（ヒストグラム・要約統計量）、(iii)
+採取パターン（単回／複数回、時刻の並び）の分布を記述する。</p>
+<p><strong>副次解析</strong>：
+採取パターンを、使用アッセイ（cTnI/cTnT・高感度/従来法）、施設、主訴（胸痛／それ以外）、転帰で層別して記述する。経時比較（2019年
+対
+2025年）は、両期間に存在する施設のみのバランスドパネルで記述的に比較する。施設をランダム効果とした階層的要約（施設内・施設間のばらつきの記述）を検討するが、モデルの採否はデータ検証後に決定する。</p>
+<p><strong>欠測データの扱い</strong>：
+検体採取日時の欠測は本研究の成否に直結するため、非欠測率を必ず提示し、代替時刻（受付＞オーダ＞報告）を適用した場合の間隔分布を主解析とは別に示す。時刻種別の違いが間隔に与える影響（採血→報告の所要時間の変動）を感度分析で評価する。その他の変数の欠測は変数ごとに件数を報告する。</p>
+<p><strong>探索的解析</strong>： 発症からの時間（NLP
+抽出）と採取パターンの関連、および帰宅後30日以内の心筋梗塞の頻度・時期は、探索的解析として実施し、確認的解析とは明確に区別する。多重比較の問題と、二次利用データに固有の測定誤分類・未測定交絡の可能性を明示し、結果を仮説生成的に解釈する。</p>
+<p><strong>バイアスへの対応</strong>：
+施設選択バイアス（高次救急施設に偏る）、時刻欠測に伴う情報バイアス、レセプト病名に基づく誤分類バイアス、他院受診の非捕捉に伴う打ち切りを、限界として§4に整理し、可能な範囲で感度分析により方向と大きさを検討する。</p>
+<p><strong>検出力・症例数</strong>：
+記述研究であり事前の検出力計算は行わない。症例数は対象期間・対象施設で
+cTn を測定した全来院により定まる。母集団件数の概算（全 cTn
+測定来院／胸痛限定の両案）を事業者に依頼しており、確定後に本項へ実数を記載する。</p>
+<p><strong>連続変数の取り扱い</strong>：
+採取間隔・年齢等の連続変数は原則として連続量のまま記述する。臨床的に意味のある区分（例：hs-cTn
+反復測定の推奨間隔に対応する時間帯）でカテゴリ化する場合は、境界値とその根拠を結果に明記する。</p>
+<p><strong>解析環境・再現性</strong>： 解析は R（tidyverse
+スタイル、snake_case、<code>set.seed</code>
+による再現性確保）で実施し、コードとセッション情報を保存する。解析コードは要請に応じて共有可能とする（補足資料A
+参照）。</p>
+<h3 id="6-finer-の確認">(6) FINER の確認</h3>
+<ul>
+<li><strong>Feasible（実施可能性）</strong>： TXP Medical
+を採用する施設の既存電子カルテ由来データを二次利用するため、新規の患者登録・診療行為を要しない。費用と2019年データの利用可否は事業者見積により確定する。</li>
+<li><strong>Interesting（関心）</strong>： 日本の ED における cTn
+採取実務の実態は臨床的関心が高く、hs-cTn
+ベースの早期除外アルゴリズム実装の前提条件を示す。</li>
+<li><strong>Novel（新規性）</strong>：
+時刻付きの多施設電子カルテ由来データを用いて採取回数・時間間隔・パターンを記述する初めての国内研究である。アッセイ情報が取得できる場合には、使用アッセイ別の記述も可能となる。</li>
+<li><strong>Ethical（倫理性）</strong>：
+既存の仮名加工情報のみを用いる後ろ向き観察研究であり、医師による新規の診療・介入を伴わない。倫理審査委員会の承認とオプトアウトによる情報公開のもとで実施する（§末尾「倫理指針への対応」参照）。</li>
+<li><strong>Relevant（重要性）</strong>： 日本の ED
+における心筋梗塞疑い患者への対応は、欧米ガイドラインが示す hs-cTn
+ベースの早期除外という標準から大きく乖離している可能性があるが、その実態はほとんど把握されていない。本研究による診療実態の可視化は、この乖離の有無と程度を示し、過剰／過少測定の把握、hs-cTn
+アルゴリズム実装の余地の評価、および将来の実装研究のベースライン提供につながる。</li>
+</ul>
+<hr />
+<h2 id="４この研究を行う意義">４．この研究を行う意義</h2>
+<p>本研究は、日本の ED における cTn
+の評価方法の実態を全国的・多施設的に初めて記述し、hs-cTn
+に基づく早期除外アルゴリズム実装の前提条件を明らかにする。第一に、採取回数・時間間隔・採取パターンの分布を示すことで、反復測定がどの程度・どの間隔で実施されているかという現状を定量化する。第二に、アッセイ・施設・主訴・転帰による層別と経時比較（2019年
+対 2025年）により、cTn
+の評価方法の傾向と変化を可視化する。第三に、これらの記述は、過剰測定・過少測定の把握、将来の
+hs-cTn
+アルゴリズム導入・実装研究の設計、および診療の質評価の基盤となる。筆頭著者らの前向き研究〔文献6,
+7〕が示したアルゴリズムの安全性・効率を、実臨床の採取実態と接続する橋渡しとして位置づけられる。</p>
+<p>本研究の限界は、二次利用データに固有の制約に由来する。第一に、TXP
+Medical
+は救命救急センターを有する高次救急施設に偏るため、一次・二次救急を含む一般化可能性（外的妥当性）は限定される。第二に、施設横断のデータリンケージがないため、他院を受診した患者の追跡ができず、探索的アウトカム（帰宅後30日以内の心筋梗塞）の頻度は過小評価となりうる。第三に、検体採取日時の欠測が一定割合生じうるため、代替時刻を用いた間隔推定には測定誤差が伴う。第四に、レセプト電算病名に基づく既往の定義は誤分類を含みうるため、客観的アンカーと
+NLP 抽出で補完する。これらの限界は、本来この Research Question
+のために収集されたのではないルーチン収集データを用いることに起因するものであり、結果の解釈にあたって測定誤分類・未測定交絡・欠測・対象期間による適格性の変化を考慮する。</p>
+<hr />
+<h2 id="５研究費の有無予定等">５．研究費の有無、予定等</h2>
+<p>データ抽出の費用・納期は TXP Medical
+の見積を受けて確定する予定である。費用が予算の範囲内であれば、科学研究費助成事業（科研費）からの支出を考慮している。資金源が確定した後に、資金提供者が研究デザイン・解析・報告に関与しない旨を明記する。</p>
+<hr />
+<h2 id="６文献">６．文献</h2>
+<h3 id="1-pubmed-検索の過程">(1) PubMed 検索の過程</h3>
+<p>PubMed
+を用いて、以下の検索を2026年7月10日〜15日に実施した（検索式1〜3および検索式7は2026年7月15日に確定。sort=relevance）。件数は検索実施時点のものである。</p>
+<table>
+<thead>
+<tr>
+<th>番号</th>
+<th>検索式（PubMed 構文）</th>
+<th>件数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>(&quot;high-sensitivity&quot;[tiab]) AND (&quot;Troponin&quot;[Mesh] OR troponin[tiab])
+AND (&quot;Emergency Service, Hospital&quot;[Mesh] OR &quot;emergency
+department&quot;[tiab]) AND (&quot;Myocardial Infarction&quot;[Mesh] OR &quot;Acute Coronary
+Syndrome&quot;[Mesh])</td>
+<td>668</td>
+</tr>
+<tr>
+<td>2</td>
+<td>&quot;high-sensitivity&quot;[tiab] AND (&quot;Troponin&quot;[Mesh] OR troponin[tiab])
+AND (&quot;Japan&quot;[Mesh] OR Japan[tiab]) AND (&quot;Emergency Service,
+Hospital&quot;[Mesh] OR &quot;emergency department&quot;[tiab])</td>
+<td>8</td>
+</tr>
+<tr>
+<td>3</td>
+<td>(&quot;Troponin&quot;[Mesh] OR troponin[tiab]) AND (&quot;Practice Patterns,
+Physicians&#39;&quot;[Mesh] OR ordering[tiab] OR &quot;practice variation&quot;[tiab] OR
+utilization[tiab]) AND (&quot;Emergency Service, Hospital&quot;[Mesh] OR
+&quot;emergency department&quot;[tiab])</td>
+<td>118</td>
+</tr>
+<tr>
+<td>4</td>
+<td>adoption high-sensitivity cardiac troponin risk stratification
+suspected myocardial infarction multicentre cohort（自由語。対象論文が
+MeSH 未索引のため）</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>RECORD statement observational routinely collected health data
+reporting</td>
+<td>48</td>
+</tr>
+<tr>
+<td>6</td>
+<td>JCS Guideline diagnosis treatment acute coronary syndrome Japanese
+Circulation Society [Circ J]</td>
+<td>1</td>
+</tr>
+<tr>
+<td>7</td>
+<td>(&quot;Chest Pain&quot;[Mesh] OR &quot;chest pain&quot;[tiab]) AND (&quot;Emergency Service,
+Hospital&quot;[Mesh] OR &quot;emergency department&quot;[tiab]) AND (consensus[tiab] OR
+&quot;decision pathway&quot;[tiab] OR &quot;expert consensus&quot;[tiab])</td>
+<td>85</td>
+</tr>
+</tbody>
+</table>
+<h3 id="2-検索後の吟味">(2) 検索後の吟味</h3>
+<p>検索1は、高感度トロポニンを用いた ED
+における心筋梗塞の診断に関する広域検索であり（MeSH
+と自由語を併用）、早期除外アルゴリズムの診断性能・検証に関する論文（文献4,
+5, 11）と、筆頭著者らによる日本の前向き研究（文献6,
+7）を同定した。検索2・3（MeSH と自由語を併用）は、日本の状況、および ED
+におけるトロポニン検査のオーダ・実務の施設間ばらつき（文献9）を補足した。検索4では、ルーチン収集データを用いた
+hs-cTn
+実装評価の先行例（文献8）を同定した。検索5・6では、報告ガイドライン
+RECORD
+の原著（文献12）と日本循環器学会の急性冠症候群ガイドライン（文献10）を採用した。トロポニン中心の検索1〜6は、&quot;rule-out&quot;
+や &quot;algorithm&quot;
+を索引に持たない米国の胸痛評価ガイドラインを捕捉しなかったため、胸痛評価に焦点を当てた検索7（MeSH
+と自由語を併用）を追加し、米国の胸痛評価パスウェイ（文献2）を同定した。加えて、欧州心臓病学会の急性冠症候群ガイドライン（文献1）および
+High-STEACS 経路の導出研究（文献3）を、当該領域の主要 landmark
+として採用した。なお、検索式には可能な範囲で MeSH を併用したが、MeSH
+索引が十分でない論文（例：文献8）は自由語検索（検索4）で同定した。以上により、合計12編を参考文献とした。数値的な主張（各アルゴリズムの陰性的中率・除外割合等）は、原著抄録と照合して確認した。</p>
+<h3 id="3-文献リストvancouver-形式">(3) 文献リスト（Vancouver
+形式）</h3>
+<ol type="1">
+<li>Byrne RA, Rossello X, Coughlan JJ, et al. 2023 ESC Guidelines for
+the management of acute coronary syndromes. Eur Heart J.
+2023;44(38):3720-3826. <a href="https://doi.org/10.1093/eurheartj/ehad191">DOI</a></li>
+<li>Kontos MC, de Lemos JA, Deitelzweig SB, Diercks DB, Gore MO, Hess
+EP, et al. 2022 ACC Expert Consensus Decision Pathway on the Evaluation
+and Disposition of Acute Chest Pain in the Emergency Department. J Am
+Coll Cardiol. 2022;80(20):1925-1960. <a href="https://doi.org/10.1016/j.jacc.2022.08.750">DOI</a></li>
+<li>Chapman AR, Anand A, Boeddinghaus J, et al. Comparison of the
+Efficacy and Safety of Early Rule-Out Pathways for Acute Myocardial
+Infarction. Circulation. 2017;135(17):1586-1596. <a href="https://doi.org/10.1161/CIRCULATIONAHA.116.025021">DOI</a></li>
+<li>Lopez-Ayala P, Boeddinghaus J, Koechlin L, Nestelberger T, Mueller
+C. Early Rule-Out Strategies in the Emergency Department Utilizing
+High-Sensitivity Cardiac Troponin Assays. Clin Chem. 2021;67(1):114-123.
+<a href="https://doi.org/10.1093/clinchem/hvaa226">DOI</a></li>
+<li>Neumann JT, Twerenbold R, Ojeda F, Sörensen NA, Chapman AR, Shah
+ASV, et al. Application of High-Sensitivity Troponin in Suspected
+Myocardial Infarction. N Engl J Med. 2019;380(26):2529-2540. <a href="https://doi.org/10.1056/NEJMoa1803377">DOI</a></li>
+<li>Tada M, Matano H, Azuma H, et al. Comprehensive validation of early
+diagnostic algorithms for myocardial infarction in the emergency
+department. QJM. 2024;117(3):187-194. <a href="https://doi.org/10.1093/qjmed/hcad242">DOI</a></li>
+<li>Azuma H, Tada M, Matano H, et al. Accelerated diagnostic pathways
+for myocardial infarction using a Siemens High-Sensitivity cardiac
+troponin I assay. Clin Biochem. 2025;136:110897. <a href="https://doi.org/10.1016/j.clinbiochem.2025.110897">DOI</a></li>
+<li>McDermott M, Kimenai DM, Anand A, et al. Adoption of
+high-sensitivity cardiac troponin for risk stratification of patients
+with suspected myocardial infarction: a multicentre cohort study. Lancet
+Reg Health Eur. 2024;43:100960. <a href="https://doi.org/10.1016/j.lanepe.2024.100960">DOI</a></li>
+<li>Chui PW, Esserman D, Bastian LA, et al. Facility Variation in
+Troponin Ordering Within the Veterans Health Administration. Med Care.
+2020;58(12):1098-1104. <a href="https://doi.org/10.1097/MLR.0000000000001424">DOI</a></li>
+<li>Kimura K, Kimura T, Ishihara M, et al. JCS 2018 Guideline on
+Diagnosis and Treatment of Acute Coronary Syndrome. Circ J.
+2019;83(5):1085-1196. <a href="https://doi.org/10.1253/circj.CJ-19-0133">DOI</a></li>
+<li>Chapman AR, Hesse K, Andrews J, et al. High-Sensitivity Cardiac
+Troponin I and Clinical Risk Scores in Patients With Suspected Acute
+Coronary Syndrome. Circulation. 2018;138(16):1654-1665. <a href="https://doi.org/10.1161/CIRCULATIONAHA.118.036426">DOI</a></li>
+<li>Benchimol EI, Smeeth L, Guttmann A, et al. The REporting of studies
+Conducted using Observational Routinely-collected health Data (RECORD)
+Statement. PLoS Med. 2015;12(10):e1001885. <a href="https://doi.org/10.1371/journal.pmed.1001885">DOI</a></li>
+</ol>
+<blockquote>
+<p>出典：本文献リストの書誌情報は PubMed（NCBI
+eutils）から取得・照合した。文献2（2022 ACC 胸痛評価パスウェイ）は原著
+PDF および Crossref で照合した。各文献の DOI リンクは上記に付した。</p>
+</blockquote>
+<hr />
+<h2 id="補足資料a日本の医学系研究倫理指針への対応">補足資料A：日本の医学系研究倫理指針への対応</h2>
+<p>本研究は、「人を対象とする生命科学・医学系研究に関する倫理指針」（文部科学省・厚生労働省・経済産業省）に準拠して実施する。</p>
+<ul>
+<li><strong>研究の種類</strong>：
+既存の情報（電子カルテ由来の仮名加工情報）のみを用いる後ろ向き観察研究である。研究のために新たな診療・検査・介入は行わない。</li>
+<li><strong>インフォームド・コンセントの方法</strong>：
+研究者が受領するのは、TXP Medical
+が作成した仮名加工済みの情報のみであり、研究者側では個別の同意取得も情報公開も実施できない。適法性の根拠は、TXP
+Medical
+がデータベースを構築・提供する法的枠組み（提供元医療機関におけるオプトアウト、次世代医療基盤法に基づく認定事業者経由の提供、または個人情報保護法上の仮名加工情報・匿名加工情報としての取扱いのいずれか）の段階で確立される。一般に、既存の医療情報を用い個別同意が困難な観察研究では情報公開と拒否機会の保障（オプトアウト）が想定されるが、本研究に適用される具体的方法（実施主体・掲示場所を含む）は、TXP
+Medical
+の法的枠組みと、研究機関および各データ提供施設の倫理審査委員会の判断により確定する。<strong>この点は要確認事項とする</strong>（補足資料C
+参照）。</li>
+<li><strong>個人情報の保護</strong>：
+研究者が受領するデータは仮名加工情報として取り扱う。氏名・住所・カルテ番号等の識別子は除去され、仮名化
+<code>患者ID</code>・<code>来院ID</code>
+に置換される。仮名化の対応表はデータベース事業者（TXP
+Medical）が保管し、研究者には提供されない。データは暗号化媒体またはセキュア環境で受領し、施錠・アクセス制御下で保管する。患者データを
+iCloud 等のクラウド同期フォルダに置かない運用とし、API
+キー・認証情報は同期対象外の環境で管理する。</li>
+<li><strong>倫理審査</strong>：
+研究実施に先立ち、研究機関の研究倫理審査委員会の承認を得る。研究機関の長への研究実施の許可申請を行う。データ提供施設側で別途の審査・許可が必要な場合はこれに従う。</li>
+<li><strong>利益相反</strong>：
+筆頭研究者・共同研究者の利益相反、およびデータベース事業者との関係（勤務先施設が当該システムを採用している事実を含む）を開示する。</li>
+<li><strong>データの管理・保管</strong>：
+解析用データセットの保管期間・廃棄方法を研究機関の規程に従って定める。セキュア納品の具体的方法は事業者の標準的手順（暗号化媒体・セキュア環境等）による。</li>
+</ul>
+<h2 id="補足資料brecord-報告ガイドライン対応表">補足資料B：RECORD
+報告ガイドライン対応表</h2>
+<table>
+<thead>
+<tr>
+<th>RECORD 項目</th>
+<th>内容</th>
+<th>本計画書での記載箇所</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.1–1.2</td>
+<td>データの種類・DB名、地域・期間をタイトル／抄録に</td>
+<td>研究タイトル、§3(2)(3)</td>
+</tr>
+<tr>
+<td>1.3</td>
+<td>データベース間リンケージの明示</td>
+<td>該当なし（施設横断リンケージなし。§3(2)）</td>
+</tr>
+<tr>
+<td>6.1</td>
+<td>対象選択のコード・アルゴリズムの詳細</td>
+<td>§3(3)（除外基準・cTn 同定コード）、§3(4)・付表（コード一覧）</td>
+</tr>
+<tr>
+<td>6.2</td>
+<td>コード・アルゴリズムの妥当性検証の参照</td>
+<td>該当なし（使用コード・アルゴリズムの外部妥当性検証研究は参照していない）</td>
+</tr>
+<tr>
+<td>6.3</td>
+<td>リンケージ過程のフロー図</td>
+<td>該当なし（施設横断リンケージなし）。参加者フローは §3(3)・Figure
+1</td>
+</tr>
+<tr>
+<td>7.1</td>
+<td>曝露・アウトカム・交絡のコード一覧</td>
+<td>§3(4) 本文および付表（コード一覧）</td>
+</tr>
+<tr>
+<td>12.1</td>
+<td>研究者のデータベース母集団へのアクセス範囲</td>
+<td>§3(2)（事業者抽出・研究者は仮名化データのみ）</td>
+</tr>
+<tr>
+<td>12.2</td>
+<td>データクリーニング手法</td>
+<td>§3(2)（型・欠測・分布検証、手順記録）</td>
+</tr>
+<tr>
+<td>12.3</td>
+<td>データリンケージの水準・方法・品質評価</td>
+<td>§3(2)（施設内・個人／来院水準のレコードリンケージ）</td>
+</tr>
+<tr>
+<td>13.1</td>
+<td>対象者選択の詳細（データ品質・可用性・リンケージによる絞り込み）</td>
+<td>§3(3)・Figure 1</td>
+</tr>
+<tr>
+<td>19.1</td>
+<td>二次利用データを用いることの含意（誤分類・未測定交絡・欠測・適格性の変化）</td>
+<td>§4（限界）・§3(5)</td>
+</tr>
+<tr>
+<td>21</td>
+<td>一般化可能性（外的妥当性）</td>
+<td>§4（限界の第一）</td>
+</tr>
+<tr>
+<td>22</td>
+<td>資金源と資金提供者の役割</td>
+<td>§5</td>
+</tr>
+<tr>
+<td>22.1</td>
+<td>プロトコル・生データ・解析コードへのアクセス</td>
+<td>§3(5)（解析コードの共有可能性）・補足資料A</td>
+</tr>
+</tbody>
+</table>
+<h2 id="補足資料c確認中の論点事業者回答後に確定">補足資料C：確認中の論点（事業者回答後に確定）</h2>
+<p>本項は、現時点で TXP Medical
+に確認できておらず、憶測で確定していない事項の一覧である。回答を得た時点で本文の該当箇所を更新する。</p>
+<ul>
+<li><strong>収載施設数・症例規模</strong>： TXP Medical
+医療データベースの収載施設数、対象期間の ED 来院・cTn
+測定の症例規模。データの由来（NEXT Stage ER 等の TXP
+医療システム由来か）の確認。</li>
+<li><strong>検体採取日時</strong>：
+取得可否・非欠測率、および4時刻（採取／受付／オーダ／報告）の同時出力可否、各時刻の分解能（分単位か）。</li>
+<li><strong>アッセイ同定（JLAC10）</strong>： TXP Medical で
+JLAC10（全17桁）が取得可能か。取得不可の場合、統一マスタコードの項目名・院内検査コードとテーブル③（機器・試薬）でアッセイを同定できるか。</li>
+<li><strong>測定区分</strong>： 中央検査室／POCT
+の区別が取得できるか。</li>
+<li><strong>2019年データ</strong>：
+利用可否と、両期間に存在する施設の同定。</li>
+<li><strong>母集団件数</strong>： 概算（全 cTn
+測定来院／胸痛限定の両案）と、それに基づく分母定義の確定。</li>
+<li><strong>コード体系・名寄せ</strong>：
+病名・処置・医薬品の各コード体系の種別・版とコードマスタ（対応表）の提供、来院単位の名寄せと
+ED 採血・入院後採血の切り分け基準。</li>
+<li><strong>常用薬</strong>： TXP Medical
+が構造化する常用薬（他院処方を含む）の捕捉範囲と、NLP
+抽出との突合方針。</li>
+<li><strong>NLP 抽出</strong>：
+発症時刻・既往・内服の抽出可否と抽出可能率、妥当性検証結果。</li>
+<li><strong>同意・適法性の根拠</strong>： TXP Medical
+がデータベースを構築・提供する法的枠組み（提供元でのオプトアウト／次世代医療基盤法の認定事業者経由／個人情報保護法上の仮名加工・匿名加工情報のいずれか）。これに応じた本研究のインフォームド・コンセントの方法（オプトアウトの要否・実施主体・掲示場所）。</li>
+<li><strong>契約・倫理</strong>：
+概算費用・納期、データ利用契約、倫理審査上の必要書類。</li>
+</ul>
+</body>
+</html>
