@@ -171,45 +171,34 @@ vertical-align: middle;
 :root {
 --ink: #17202a;
 --muted: #59636e;
---accent: #155e75;
---accent-soft: #ecfeff;
+--accent: #24566a;
+--accent-soft: #f3f7f8;
 --line: #cbd5e1;
 --paper: #ffffff;
 --canvas: #f1f5f9;
 }
 html { scroll-behavior: smooth; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 body {
-max-width: 1040px;
+max-width: 920px;
 margin: 0 auto;
 padding: 32px 40px 72px;
 color: var(--ink);
 background: var(--paper);
-font: 17px/1.8 -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif;
+font: 17px/1.85 -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif;
 }
-body::before {
-content: "研究計画書 | 共同研究者閲覧用";
-display: block;
-margin-bottom: 28px;
-padding: 10px 14px;
-color: #fff;
-background: var(--accent);
-border-radius: 6px;
-font-size: 13px;
-letter-spacing: .04em;
-}
-h1 { margin-top: 0; font-size: 2rem; line-height: 1.35; border-bottom: 3px solid var(--accent); padding-bottom: 12px; }
-h2 { margin-top: 3rem; padding: 8px 12px; font-size: 1.45rem; line-height: 1.45; border-left: 6px solid var(--accent); background: var(--accent-soft); }
-h3 { margin-top: 2rem; color: var(--accent); font-size: 1.15rem; }
+h1 { margin-top: 0; font-size: 2rem; line-height: 1.4; border-bottom: 1px solid var(--line); padding-bottom: 16px; }
+h2 { margin-top: 3.5rem; padding: 0 0 8px; font-size: 1.4rem; line-height: 1.5; border-bottom: 2px solid var(--accent); }
+h3 { margin-top: 2.25rem; color: var(--accent); font-size: 1.12rem; }
 h4 { margin-top: 1.5rem; }
+p { margin: 0 0 1.05em; }
 a { color: #0369a1; text-underline-offset: 2px; }
-blockquote { margin: 1rem 0; padding: .65rem 1rem; color: #334155; background: #f8fafc; border-left: 4px solid #94a3b8; }
+blockquote { margin: 1.25rem 0; padding: .55rem 1rem; color: #475569; background: #fafafa; border-left: 3px solid #b6c2c9; }
 blockquote p { margin: .25rem 0; }
 code { padding: .1em .35em; background: #eef2f6; border-radius: 4px; overflow-wrap: anywhere; }
 table { display: block; width: 100%; overflow-x: auto; border-collapse: collapse; margin: 1.25rem 0 1.75rem; font-size: 1rem; }
 th, td { min-width: 8rem; padding: .55rem .7rem; text-align: left; vertical-align: top; border: 1px solid var(--line); }
-th { color: #0f3d4a; background: #e6f3f6; }
-tr:nth-child(even) td { background: #f8fafc; }
-#TOC { margin: 2rem 0 3rem; padding: 1rem 1.5rem; background: #f8fafc; border: 1px solid var(--line); border-radius: 8px; }
+th { color: #0f3d4a; background: #f1f5f7; font-weight: 600; }
+#TOC { margin: 2rem 0 3rem; padding: 1rem 1.5rem; background: #fafafa; border: 1px solid var(--line); border-radius: 4px; }
 #TOC::before { content: "目次"; display: block; margin-bottom: .5rem; font-size: 1.1rem; font-weight: 700; color: var(--accent); }
 #TOC ul { margin: .25rem 0; padding-left: 1.4rem; }
 hr { margin: 2.5rem 0; border: 0; border-top: 1px solid var(--line); }
@@ -221,7 +210,7 @@ h2 { font-size: 1.25rem; }
 @media print {
 @page { size: A4 portrait; margin: 16mm 14mm; }
 body { max-width: none; padding: 0; font-size: 10.5pt; }
-body::before, #TOC { display: none; }
+#TOC { display: none; }
 h1 { font-size: 18pt; }
 h2 { break-after: avoid; font-size: 14pt; }
 h3 { break-after: avoid; font-size: 12pt; }
